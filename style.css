@@ -1,0 +1,89 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+  z-index: 100;
+  margin-left: 0px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  border-bottom: #077509;
+  border: 1px greenyellow;
+  border-style: dotted;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+  background-color: #000000;
+  color: #9ad79b;
+  border-color: #077509;
+}
+main {
+  margin-top: 80px;
+}
+
+.content {
+  position: relative;
+  text-align: left;
+  margin-top: auto;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+ul li {
+  list-style-position: inside;
+  position: relative;
+  padding-left: 0px;
+}
+h3 {
+  padding-left: 20px;
+}
+
+.sidebar {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 90%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-style: dotted;
+}
+
+section {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+
+footer {
+  position: sticky;
+  text-align: center;
+  margin-top: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
